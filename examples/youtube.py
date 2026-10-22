@@ -3,7 +3,7 @@ import httpx, os, time
 
 TOKEN = os.environ["APIFY_TOKEN"]
 BASE = "https://api.apify.com/v2"
-ACTOR = "crawlkit/youtube-transcripts"
+ACTOR = "sweet_stickball~youtube-transcripts"
 
 # Start the Actor run
 run = httpx.post(

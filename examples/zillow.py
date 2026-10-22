@@ -3,7 +3,7 @@ import httpx, os, time
 
 TOKEN = os.environ["APIFY_TOKEN"]
 BASE = "https://api.apify.com/v2"
-ACTOR = "crawlkit/zillow-scraper"
+ACTOR = "sweet_stickball~zillow-scraper"
 
 # Start the Actor run
 run = httpx.post(

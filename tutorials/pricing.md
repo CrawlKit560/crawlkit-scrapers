@@ -25,32 +25,32 @@ See [apify.com/pricing](https://apify.com/pricing) for current subscription deta
 
 | Actor | Event | $/result |
 |-------|-------|---------|
-| [Airbnb Scraper](https://apify.com/crawlkit/airbnb-scraper) | Listing | $0.0028 |
-| [AliExpress Scraper](https://apify.com/crawlkit/aliexpress-scraper) | Product | $0.0063 |
-| [Amazon Reviews Scraper](https://apify.com/crawlkit/amazon-reviews-scraper) | Review | $0.0042 |
-| [App Store Reviews Scraper](https://apify.com/crawlkit/app-store-reviews-scraper) | App review | $0.00007 |
-| [Bing & DuckDuckGo SERP](https://apify.com/crawlkit/bing-ddg-serp) | Search result | $0.0031 |
-| [Booking.com Scraper](https://apify.com/crawlkit/booking-scraper) | Hotel | $0.0035 |
-| [eBay Sold Listings](https://apify.com/crawlkit/ebay-sold-scraper) | Listing | Pay-per-use |
-| [G2 Reviews Scraper](https://apify.com/crawlkit/g2-reviews-scraper) | Review | Pay-per-use |
-| [Glassdoor Scraper](https://apify.com/crawlkit/glassdoor-scraper) | Review | $0.0023 |
-| [Google Flights Scraper](https://apify.com/crawlkit/google-flights-scraper) | Flight | $0.00017 |
-| [Google Jobs Scraper](https://apify.com/crawlkit/google-jobs-scraper) | Job listing | $0.0063 |
-| [Google News Scraper](https://apify.com/crawlkit/google-news-scraper) | Article | $0.0028 |
-| [Google Shopping Scraper](https://apify.com/crawlkit/google-shopping-scraper) | Product | $0.0024 |
-| [Google Trends Scraper](https://apify.com/crawlkit/google-trends-scraper) | Trend query | $0.0021 |
-| [Indeed Jobs Scraper](https://apify.com/crawlkit/indeed-job-scraper) | Job listing | $0.0005 |
-| [Realtor.com Scraper](https://apify.com/crawlkit/realtor-scraper) | Property | $0.0007 |
-| [Reddit Scraper](https://apify.com/crawlkit/reddit-scraper) | Post/comment | $0.0028 |
-| [SEC EDGAR & Yahoo Finance](https://apify.com/crawlkit/sec-edgar-yahoo-finance) | Filing | $0.00035 |
-| [Shopify Scraper](https://apify.com/crawlkit/shopify-scraper) | Product | $0.0007 |
-| [Tech Stack Detector](https://apify.com/crawlkit/tech-stack-scanner) | Domain scan | $0.0016 |
-| [Telegram Channel Scraper](https://apify.com/crawlkit/telegram-scraper) | Message | $0.0035 |
-| [Trustpilot Reviews](https://apify.com/crawlkit/trustpilot-reviews) | Review | $0.00048 |
-| [Walmart Scraper](https://apify.com/crawlkit/walmart-scraper) | Product | $0.0031 |
-| [Yelp Scraper](https://apify.com/crawlkit/yelp-scraper) | Business | $0.0035 |
-| [YouTube Transcript Scraper](https://apify.com/crawlkit/youtube-transcripts) | Transcript | $0.0035 |
-| [Zillow Scraper](https://apify.com/crawlkit/zillow-scraper) | Property | $0.0016 |
+| [Airbnb Scraper](https://apify.com/sweet_stickball/airbnb-scraper) | Listing | $0.0028 |
+| [AliExpress Scraper](https://apify.com/sweet_stickball/aliexpress-scraper) | Product | $0.0063 |
+| [Amazon Reviews Scraper](https://apify.com/sweet_stickball/amazon-reviews-scraper) | Review | $0.0042 |
+| [App Store Reviews Scraper](https://apify.com/sweet_stickball/app-store-reviews-scraper) | App review | $0.00007 |
+| [Bing & DuckDuckGo SERP](https://apify.com/sweet_stickball/bing-ddg-serp) | Search result | $0.0031 |
+| [Booking.com Scraper](https://apify.com/sweet_stickball/booking-scraper) | Hotel | $0.0035 |
+| [eBay Sold Listings](https://apify.com/sweet_stickball/ebay-sold-scraper) | Listing | Pay-per-use |
+| [G2 Reviews Scraper](https://apify.com/sweet_stickball/g2-reviews-scraper) | Review | Pay-per-use |
+| [Glassdoor Scraper](https://apify.com/sweet_stickball/glassdoor-scraper) | Review | $0.0023 |
+| [Google Flights Scraper](https://apify.com/sweet_stickball/google-flights-scraper) | Flight | $0.00017 |
+| [Google Jobs Scraper](https://apify.com/sweet_stickball/google-jobs-scraper) | Job listing | $0.0063 |
+| [Google News Scraper](https://apify.com/sweet_stickball/google-news-scraper) | Article | $0.0028 |
+| [Google Shopping Scraper](https://apify.com/sweet_stickball/google-shopping-scraper) | Product | $0.0024 |
+| [Google Trends Scraper](https://apify.com/sweet_stickball/google-trends-scraper) | Trend query | $0.0021 |
+| [Indeed Jobs Scraper](https://apify.com/sweet_stickball/indeed-job-scraper) | Job listing | $0.0005 |
+| [Realtor.com Scraper](https://apify.com/sweet_stickball/realtor-scraper) | Property | $0.0007 |
+| [Reddit Scraper](https://apify.com/sweet_stickball/reddit-scraper) | Post/comment | $0.0028 |
+| [SEC EDGAR & Yahoo Finance](https://apify.com/sweet_stickball/sec-edgar-yahoo-finance) | Filing | $0.00035 |
+| [Shopify Scraper](https://apify.com/sweet_stickball/shopify-store-scraper) | Product | $0.0007 |
+| [Tech Stack Detector](https://apify.com/sweet_stickball/tech-stack-scanner) | Domain scan | $0.0016 |
+| [Telegram Channel Scraper](https://apify.com/sweet_stickball/telegram-public-channel-scraper) | Message | $0.0035 |
+| [Trustpilot Reviews](https://apify.com/sweet_stickball/trustpilot-reviews) | Review | $0.00048 |
+| [Walmart Scraper](https://apify.com/sweet_stickball/walmart-scraper) | Product | $0.0031 |
+| [Yelp Scraper](https://apify.com/sweet_stickball/yelp-scraper) | Business | $0.0035 |
+| [YouTube Transcript Scraper](https://apify.com/sweet_stickball/youtube-transcripts) | Transcript | $0.0035 |
+| [Zillow Scraper](https://apify.com/sweet_stickball/zillow-scraper) | Property | $0.0016 |
 
 ## Examples
 

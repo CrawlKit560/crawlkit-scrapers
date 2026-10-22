@@ -3,7 +3,7 @@
 <!-- Logo placeholder: replace with your actual logo URL -->
 <!-- ![CrawlKit Logo](https://your-cdn.com/crawlkit-logo.png) -->
 
-[![Apify Store](https://img.shields.io/badge/Apify_Store-crawlkit-blue?logo=apify)](https://apify.com/crawlkit)
+[![Apify Store](https://img.shields.io/badge/Apify_Store-crawlkit-blue?logo=apify)](https://apify.com/sweet_stickball)
 [![MCP](https://img.shields.io/badge/MCP-mcp.apify.com-green)](https://mcp.apify.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
@@ -25,67 +25,67 @@ Get your API token at [console.apify.com/account#/integrations](https://console.
 
 | Actor | Price/result | Description |
 |-------|-------------|-------------|
-| [AliExpress Scraper](https://apify.com/crawlkit/aliexpress-scraper) | $0.0063 | Product search: title, price, discount, rating, store |
-| [Amazon Reviews Scraper](https://apify.com/crawlkit/amazon-reviews-scraper) | $0.0042 | Product reviews: rating, text, date, verified — 9 marketplaces |
-| [eBay Sold Listings Scraper](https://apify.com/crawlkit/ebay-sold-scraper) | Pay-per-use | Sold/completed listings: real sale prices — US, UK, DE, FR |
-| [Google Shopping Scraper](https://apify.com/crawlkit/google-shopping-scraper) | $0.0024 | Shopping results: prices, sellers, ratings — 12 countries |
-| [Shopify Scraper](https://apify.com/crawlkit/shopify-scraper) | $0.0007 | Store products: prices, variants, stock, images, tags |
-| [Walmart Scraper](https://apify.com/crawlkit/walmart-scraper) | $0.0031 | Product search/pages: price, rating, seller, availability |
+| [AliExpress Scraper](https://apify.com/sweet_stickball/aliexpress-scraper) | $0.0063 | Product search: title, price, discount, rating, store |
+| [Amazon Reviews Scraper](https://apify.com/sweet_stickball/amazon-reviews-scraper) | $0.0042 | Product reviews: rating, text, date, verified — 9 marketplaces |
+| [eBay Sold Listings Scraper](https://apify.com/sweet_stickball/ebay-sold-scraper) | Pay-per-use | Sold/completed listings: real sale prices — US, UK, DE, FR |
+| [Google Shopping Scraper](https://apify.com/sweet_stickball/google-shopping-scraper) | $0.0024 | Shopping results: prices, sellers, ratings — 12 countries |
+| [Shopify Scraper](https://apify.com/sweet_stickball/shopify-store-scraper) | $0.0007 | Store products: prices, variants, stock, images, tags |
+| [Walmart Scraper](https://apify.com/sweet_stickball/walmart-scraper) | $0.0031 | Product search/pages: price, rating, seller, availability |
 
 ### Travel
 
 | Actor | Price/result | Description |
 |-------|-------------|-------------|
-| [Airbnb Scraper](https://apify.com/crawlkit/airbnb-scraper) | $0.0028 | Search results: listing, price, rating, reviews, room type |
-| [Booking.com Scraper](https://apify.com/crawlkit/booking-scraper) | $0.0035 | Hotel search: name, price, rating, stars, district, coordinates |
-| [Google Flights Scraper](https://apify.com/crawlkit/google-flights-scraper) | $0.00017 | Flight fares: price, airline, times, duration, stops |
+| [Airbnb Scraper](https://apify.com/sweet_stickball/airbnb-scraper) | $0.0028 | Search results: listing, price, rating, reviews, room type |
+| [Booking.com Scraper](https://apify.com/sweet_stickball/booking-scraper) | $0.0035 | Hotel search: name, price, rating, stars, district, coordinates |
+| [Google Flights Scraper](https://apify.com/sweet_stickball/google-flights-scraper) | $0.00017 | Flight fares: price, airline, times, duration, stops |
 
 ### Real Estate
 
 | Actor | Price/result | Description |
 |-------|-------------|-------------|
-| [Realtor.com Scraper](https://apify.com/crawlkit/realtor-scraper) | $0.0007 | Property listings: price, beds, baths, sqft, coordinates |
-| [Zillow Scraper](https://apify.com/crawlkit/zillow-scraper) | $0.0016 | Listings: price, Zestimate, beds, baths, sqft |
+| [Realtor.com Scraper](https://apify.com/sweet_stickball/realtor-scraper) | $0.0007 | Property listings: price, beds, baths, sqft, coordinates |
+| [Zillow Scraper](https://apify.com/sweet_stickball/zillow-scraper) | $0.0016 | Listings: price, Zestimate, beds, baths, sqft |
 
 ### Jobs
 
 | Actor | Price/result | Description |
 |-------|-------------|-------------|
-| [Google Jobs Scraper](https://apify.com/crawlkit/google-jobs-scraper) | $0.0063 | Job listings: title, company, location, salary, apply links |
-| [Indeed Jobs Scraper](https://apify.com/crawlkit/indeed-job-scraper) | $0.0005 | Job listings: title, company, salary — 6 countries |
-| [Glassdoor Scraper](https://apify.com/crawlkit/glassdoor-scraper) | $0.0023 | Company reviews + salary ranges by title |
+| [Google Jobs Scraper](https://apify.com/sweet_stickball/google-jobs-scraper) | $0.0063 | Job listings: title, company, location, salary, apply links |
+| [Indeed Jobs Scraper](https://apify.com/sweet_stickball/indeed-job-scraper) | $0.0005 | Job listings: title, company, salary — 6 countries |
+| [Glassdoor Scraper](https://apify.com/sweet_stickball/glassdoor-scraper) | $0.0023 | Company reviews + salary ranges by title |
 
 ### Social Media
 
 | Actor | Price/result | Description |
 |-------|-------------|-------------|
-| [Reddit Scraper](https://apify.com/crawlkit/reddit-scraper) | $0.0028 | Subreddit posts/comments: title, text, author, date |
-| [Telegram Channel Scraper](https://apify.com/crawlkit/telegram-scraper) | $0.0035 | Public channel messages: text, dates, views, media |
-| [YouTube Transcript Scraper](https://apify.com/crawlkit/youtube-transcripts) | $0.0035 | Video transcripts with timestamps + metadata + comments |
+| [Reddit Scraper](https://apify.com/sweet_stickball/reddit-scraper) | $0.0028 | Subreddit posts/comments: title, text, author, date |
+| [Telegram Channel Scraper](https://apify.com/sweet_stickball/telegram-public-channel-scraper) | $0.0035 | Public channel messages: text, dates, views, media |
+| [YouTube Transcript Scraper](https://apify.com/sweet_stickball/youtube-transcripts) | $0.0035 | Video transcripts with timestamps + metadata + comments |
 
 ### Reviews
 
 | Actor | Price/result | Description |
 |-------|-------------|-------------|
-| [App Store Reviews Scraper](https://apify.com/crawlkit/app-store-reviews-scraper) | $0.00007 | iOS + Google Play reviews: text, rating, date, app version |
-| [G2 Reviews Scraper](https://apify.com/crawlkit/g2-reviews-scraper) | Pay-per-use | G2 reviews: text, rating, pros, cons, company size |
-| [Trustpilot Reviews Scraper](https://apify.com/crawlkit/trustpilot-reviews) | $0.00048 | Reviews + company TrustScore, review count |
-| [Yelp Scraper](https://apify.com/crawlkit/yelp-scraper) | $0.0035 | Business reviews: name, address, rating, review text |
+| [App Store Reviews Scraper](https://apify.com/sweet_stickball/app-store-reviews-scraper) | $0.00007 | iOS + Google Play reviews: text, rating, date, app version |
+| [G2 Reviews Scraper](https://apify.com/sweet_stickball/g2-reviews-scraper) | Pay-per-use | G2 reviews: text, rating, pros, cons, company size |
+| [Trustpilot Reviews Scraper](https://apify.com/sweet_stickball/trustpilot-reviews) | $0.00048 | Reviews + company TrustScore, review count |
+| [Yelp Scraper](https://apify.com/sweet_stickball/yelp-scraper) | $0.0035 | Business reviews: name, address, rating, review text |
 
 ### Finance
 
 | Actor | Price/result | Description |
 |-------|-------------|-------------|
-| [SEC EDGAR & Yahoo Finance](https://apify.com/crawlkit/sec-edgar-yahoo-finance) | $0.00035 | SEC filings (10-K, 10-Q, 8-K) + stock quotes + financials |
+| [SEC EDGAR & Yahoo Finance](https://apify.com/sweet_stickball/sec-edgar-yahoo-finance) | $0.00035 | SEC filings (10-K, 10-Q, 8-K) + stock quotes + financials |
 
 ### Search & Tech
 
 | Actor | Price/result | Description |
 |-------|-------------|-------------|
-| [Bing & DuckDuckGo SERP](https://apify.com/crawlkit/bing-ddg-serp) | $0.0031 | Search results: titles, URLs, snippets, positions |
-| [Google News Scraper](https://apify.com/crawlkit/google-news-scraper) | $0.0028 | News articles: headlines, sources, dates, URLs |
-| [Google Trends Scraper](https://apify.com/crawlkit/google-trends-scraper) | $0.0021 | Interest over time + related queries, up to 5 keywords |
-| [Tech Stack Detector](https://apify.com/crawlkit/tech-stack-scanner) | $0.0016 | Website tech stack: CMS, frameworks, analytics, CDN, hosting |
+| [Bing & DuckDuckGo SERP](https://apify.com/sweet_stickball/bing-ddg-serp) | $0.0031 | Search results: titles, URLs, snippets, positions |
+| [Google News Scraper](https://apify.com/sweet_stickball/google-news-scraper) | $0.0028 | News articles: headlines, sources, dates, URLs |
+| [Google Trends Scraper](https://apify.com/sweet_stickball/google-trends-scraper) | $0.0021 | Interest over time + related queries, up to 5 keywords |
+| [Tech Stack Detector](https://apify.com/sweet_stickball/tech-stack-scanner) | $0.0016 | Website tech stack: CMS, frameworks, analytics, CDN, hosting |
 
 ## MCP Integration
 

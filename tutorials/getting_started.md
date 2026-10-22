@@ -15,7 +15,7 @@ export APIFY_TOKEN="apify_api_XXXXXXXXXXXXXXXXXXXXXXXX"
 
 ## 2. Choose an Actor
 
-Browse all CrawlKit Actors on the [Apify Store](https://apify.com/crawlkit). Each Actor has a README with the full input schema and output example.
+Browse all CrawlKit Actors on the [Apify Store](https://apify.com/sweet_stickball). Each Actor has a README with the full input schema and output example.
 
 ## 3. Run via API
 
@@ -26,7 +26,7 @@ Every Actor follows the same three-step pattern: **start → poll → read**.
 ```bash
 # Start a run
 RUN_ID=$(curl -s -X POST \
-  "https://api.apify.com/v2/acts/crawlkit/booking-scraper/runs?token=$APIFY_TOKEN" \
+  "https://api.apify.com/v2/acts/sweet_stickball~booking-scraper/runs?token=$APIFY_TOKEN" \
   -H "Content-Type: application/json" \
   -d '{"location":"Paris","maxItems":5}' | jq -r '.data.id')
 
@@ -54,7 +54,7 @@ TOKEN = os.environ["APIFY_TOKEN"]
 BASE = "https://api.apify.com/v2"
 
 # 1. Start
-run = httpx.post(f"{BASE}/acts/crawlkit/booking-scraper/runs",
+run = httpx.post(f"{BASE}/acts/sweet_stickball~booking-scraper/runs",
     params={"token": TOKEN}, json={"location": "Paris", "maxItems": 5}).json()
 run_id = run["data"]["id"]
 
