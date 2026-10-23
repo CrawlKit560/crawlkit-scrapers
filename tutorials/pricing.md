@@ -31,8 +31,6 @@ See [apify.com/pricing](https://apify.com/pricing) for current subscription deta
 | [App Store Reviews Scraper](https://apify.com/sweet_stickball/app-store-reviews-scraper) | App review | $0.00007 |
 | [Bing & DuckDuckGo SERP](https://apify.com/sweet_stickball/bing-ddg-serp) | Search result | $0.0031 |
 | [Booking.com Scraper](https://apify.com/sweet_stickball/booking-scraper) | Hotel | $0.0035 |
-| [eBay Sold Listings](https://apify.com/sweet_stickball/ebay-sold-scraper) | Listing | Pay-per-use |
-| [G2 Reviews Scraper](https://apify.com/sweet_stickball/g2-reviews-scraper) | Review | Pay-per-use |
 | [Glassdoor Scraper](https://apify.com/sweet_stickball/glassdoor-scraper) | Review | $0.0023 |
 | [Google Flights Scraper](https://apify.com/sweet_stickball/google-flights-scraper) | Flight | $0.00017 |
 | [Google Jobs Scraper](https://apify.com/sweet_stickball/google-jobs-scraper) | Job listing | $0.0063 |

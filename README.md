@@ -7,7 +7,7 @@
 [![MCP](https://img.shields.io/badge/MCP-mcp.apify.com-green)](https://mcp.apify.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-**26 production scrapers for e-commerce, travel, real estate, jobs, social media, finance and more.** All Actors run on [Apify](https://apify.com) — no infrastructure to manage, pay per result.
+**24 production scrapers for e-commerce, travel, real estate, jobs, social media, finance and more.** All Actors run on [Apify](https://apify.com) — no infrastructure to manage, pay per result.
 
 ## Quick Start
 
@@ -27,7 +27,6 @@ Get your API token at [console.apify.com/account#/integrations](https://console.
 |-------|-------------|-------------|
 | [AliExpress Scraper](https://apify.com/sweet_stickball/aliexpress-scraper) | $0.0063 | Product search: title, price, discount, rating, store |
 | [Amazon Reviews Scraper](https://apify.com/sweet_stickball/amazon-reviews-scraper) | $0.0042 | Product reviews: rating, text, date, verified — 9 marketplaces |
-| [eBay Sold Listings Scraper](https://apify.com/sweet_stickball/ebay-sold-scraper) | Pay-per-use | Sold/completed listings: real sale prices — US, UK, DE, FR |
 | [Google Shopping Scraper](https://apify.com/sweet_stickball/google-shopping-scraper) | $0.0024 | Shopping results: prices, sellers, ratings — 12 countries |
 | [Shopify Scraper](https://apify.com/sweet_stickball/shopify-store-scraper) | $0.0007 | Store products: prices, variants, stock, images, tags |
 | [Walmart Scraper](https://apify.com/sweet_stickball/walmart-scraper) | $0.0031 | Product search/pages: price, rating, seller, availability |
@@ -68,7 +67,6 @@ Get your API token at [console.apify.com/account#/integrations](https://console.
 | Actor | Price/result | Description |
 |-------|-------------|-------------|
 | [App Store Reviews Scraper](https://apify.com/sweet_stickball/app-store-reviews-scraper) | $0.00007 | iOS + Google Play reviews: text, rating, date, app version |
-| [G2 Reviews Scraper](https://apify.com/sweet_stickball/g2-reviews-scraper) | Pay-per-use | G2 reviews: text, rating, pros, cons, company size |
 | [Trustpilot Reviews Scraper](https://apify.com/sweet_stickball/trustpilot-reviews) | $0.00048 | Reviews + company TrustScore, review count |
 | [Yelp Scraper](https://apify.com/sweet_stickball/yelp-scraper) | $0.0035 | Business reviews: name, address, rating, review text |
 
