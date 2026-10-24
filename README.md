@@ -6,6 +6,7 @@
 [![Apify Store](https://img.shields.io/badge/Apify_Store-crawlkit-blue?logo=apify)](https://apify.com/sweet_stickball)
 [![MCP](https://img.shields.io/badge/MCP-mcp.apify.com-green)](https://mcp.apify.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Listed on mcpservers.org](https://mcpservers.org/badge.svg)](https://mcpservers.org/servers/crawlkit560/crawlkit-scrapers)
 
 **24 production scrapers for e-commerce, travel, real estate, jobs, social media, finance and more.** All Actors run on [Apify](https://apify.com) — no infrastructure to manage, pay per result.
 
