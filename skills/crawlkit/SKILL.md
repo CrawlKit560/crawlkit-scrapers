@@ -1,11 +1,11 @@
 ---
 name: crawlkit
-description: Get structured data from Booking.com, Airbnb, Amazon reviews, AliExpress, Google Shopping, Zillow, Indeed, Yelp, Reddit, Google Jobs, Google News, Google Flights, Shopify stores, public Telegram channels and Bing/DuckDuckGo with the CrawlKit scrapers on Apify. Use when the user asks for hotel or rental prices, product prices or reviews, real-estate listings, job listings, business reviews, subreddit posts, news articles, flight offers, a Shopify catalog, Telegram channel messages or search results as data.
+description: Get structured data from Booking.com, Airbnb, Amazon reviews, AliExpress, Google Shopping, Wayfair, Best Buy, Zillow, Indeed, Yelp, Grubhub, OfferUp, Vinted, Reddit, Google Jobs, Google News, Google Flights, Shopify stores, public Telegram channels and Bing/DuckDuckGo with the CrawlKit scrapers on Apify. Use when the user asks for hotel or rental prices, product prices or reviews, furniture or electronics prices, restaurants and delivery fees, second-hand marketplace listings, real-estate listings, job listings, business reviews, subreddit posts, news articles, flight offers, a Shopify catalog, Telegram channel messages or search results as data.
 ---
 
 # CrawlKit scrapers
 
-Fifteen web scrapers (Apify Actors) that return clean JSON. Each run is billed per result to the user's Apify account (pay per result, no subscription; the price is shown on each Actor's page).
+Twenty web scrapers (Apify Actors) that return clean JSON. Each run is billed per result to the user's Apify account (pay per result, no subscription; the price is shown on each Actor's page).
 
 ## Before running anything
 
@@ -44,14 +44,19 @@ items = httpx.post(
 |---|---|---|
 | `booking-scraper` | Hotels in a city with prices for given dates, rating, stars, address | `location` ("Paris, France") or `url` (a Booking.com search URL), `checkIn`, `checkOut`, `currency` ("EUR"), `maxItems`. Without dates Booking.com returns no prices |
 | `airbnb-scraper` | Airbnb stays in a destination: price per night, total, rating, room type, beds | `location`* ("Lisbon, Portugal"), `checkIn`, `checkOut`, `currency` ("EUR"), `maxItems` |
+| `bestbuy-scraper` | Best Buy products: price, regular price, savings, rating, brand, model, stock | `query` or `url` (search, category or product URL), `maxItems` |
 | `amazon-reviews-scraper` | Reviews of one Amazon product | `productUrl`* (product URL or ASIN), `country` (US, UK, FR, DE, CA, JP, AU, ES, IT), `sortBy` (recent, helpful), `filterByStar` (all, five_star … one_star), `maxReviews` |
 | `aliexpress-scraper` | AliExpress products: price, discount, orders, rating, seller, shipping | `query` (search) or `productUrl`, `shipTo` ("US"), `maxItems` |
 | `google-shopping-scraper` | Product offers on Google Shopping: price, seller, rating, link | `query`*, `country` (us, uk, fr, de, es, it, ca, au, jp, br, in, nl), `minPrice`, `maxPrice`, `sortBy` (relevance, price_low, price_high, review_score), `maxItems` |
+| `wayfair-scraper` | Wayfair products: price, original price, discount, rating, brand, delivery | `query` or `url`, `sort` (recommended, price_high_to_low, rating), `includeSponsored`, `maxItems` |
+| `vinted-scraper` | Vinted second-hand listings: price with fees, brand, size, condition, seller | `query` or `catalogUrl`, `country` (fr, de, co.uk, com, es, it, pl, …), `sort` (newest, relevance, price_low, price_high), `minPrice`, `maxPrice`, `condition`, `maxItems` |
+| `offerup-scraper` | OfferUp local listings (US): price, condition, location, seller | `query`, `location` ("City, ST" or ZIP), `radiusMiles`, `minPrice`, `maxPrice`, `maxItems`, or `listingUrl` |
 | `zillow-scraper` | Homes for sale or rent: price, beds, baths, area, address | `searchQuery`* ("Austin, TX"), `listingType` (sale, rent), `maxItems` |
 | `reddit-scraper` | Posts of a subreddit, or comments of a post | `subreddit`* (name, subreddit URL or post URL), `sort` (hot, new, top, rising), `topPeriod` (hour … all, with `top`), `maxItems` |
 | `google-jobs-scraper` | Job listings: title, company, location, salary, apply links | `query`* ("data analyst"), `location`, `language` ("en"), `maxItems` |
 | `indeed-job-scraper` | Indeed job listings: title, company, location, salary, date | `query`*, `location`, `country` (US, UK, FR, DE, CA, AU), `maxItems` |
 | `yelp-scraper` | One Yelp business (details) and its reviews | `businessUrl` (a yelp.com/biz URL) or `query` + `location` (resolves the **top** match only), `maxReviews` |
+| `grubhub-scraper` | Grubhub restaurants delivering to a US address: rating, delivery fee and time, optional menu | `location`* ("Chicago, IL"), `query` (cuisine or dish), `includeMenu`, `maxItems` |
 | `google-news-scraper` | News articles: title, source, date, link | `query`*, `language` ("en"), `country` ("US"), `maxItems` |
 | `google-flights-scraper` | Flight offers: airline, price, times, stops | `origin`*, `destination`* (IATA codes: "JFK", "CDG"), `date`, `returnDate`, `travelClass` (economy, premium_economy, business, first), `stops` (any, nonstop, one_stop, two_plus), `maxResults` |
 | `shopify-store-scraper` | Product catalog of a Shopify store: prices, variants, stock | `shopUrl`* ("https://www.allbirds.com"), `maxProducts`, `includeVariants`, `analyzeStore` (adds one store-level summary item) |
@@ -68,4 +73,4 @@ items = httpx.post(
 ## Through MCP instead of HTTP
 
 If the agent supports remote MCP servers, the same Actors are available as tools via Apify's MCP server:
-`https://mcp.apify.com/?actors=sweet_stickball/booking-scraper,sweet_stickball/airbnb-scraper,sweet_stickball/amazon-reviews-scraper,sweet_stickball/aliexpress-scraper,sweet_stickball/google-shopping-scraper,sweet_stickball/zillow-scraper,sweet_stickball/reddit-scraper,sweet_stickball/google-jobs-scraper,sweet_stickball/indeed-job-scraper,sweet_stickball/yelp-scraper,sweet_stickball/google-news-scraper,sweet_stickball/google-flights-scraper,sweet_stickball/shopify-store-scraper,sweet_stickball/telegram-public-channel-scraper,sweet_stickball/bing-ddg-serp` (sign in with Apify OAuth or send `Authorization: Bearer <token>`).
+`https://mcp.apify.com/?actors=sweet_stickball/booking-scraper,sweet_stickball/airbnb-scraper,sweet_stickball/amazon-reviews-scraper,sweet_stickball/aliexpress-scraper,sweet_stickball/google-shopping-scraper,sweet_stickball/wayfair-scraper,sweet_stickball/bestbuy-scraper,sweet_stickball/zillow-scraper,sweet_stickball/reddit-scraper,sweet_stickball/google-jobs-scraper,sweet_stickball/indeed-job-scraper,sweet_stickball/yelp-scraper,sweet_stickball/grubhub-scraper,sweet_stickball/offerup-scraper,sweet_stickball/vinted-scraper,sweet_stickball/google-news-scraper,sweet_stickball/google-flights-scraper,sweet_stickball/shopify-store-scraper,sweet_stickball/telegram-public-channel-scraper,sweet_stickball/bing-ddg-serp` (sign in with Apify OAuth or send `Authorization: Bearer <token>`).

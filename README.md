@@ -8,7 +8,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Listed on mcpservers.org](https://mcpservers.org/badge.svg)](https://mcpservers.org/servers/crawlkit560/crawlkit-scrapers)
 
-**24 production scrapers for e-commerce, travel, real estate, jobs, social media, finance and more.** All Actors run on [Apify](https://apify.com) — no infrastructure to manage, pay per result.
+**29 production scrapers for e-commerce, travel, real estate, jobs, social media, finance and more.** All Actors run on [Apify](https://apify.com) — no infrastructure to manage, pay per result.
 
 ## Quick Start
 
@@ -28,9 +28,13 @@ Get your API token at [console.apify.com/account#/integrations](https://console.
 |-------|-------------|-------------|
 | [AliExpress Scraper](https://apify.com/sweet_stickball/aliexpress-scraper) | $0.0063 | Product search: title, price, discount, rating, store |
 | [Amazon Reviews Scraper](https://apify.com/sweet_stickball/amazon-reviews-scraper) | $0.0042 | Product reviews: rating, text, date, verified — 9 marketplaces |
+| [Best Buy Scraper](https://apify.com/sweet_stickball/bestbuy-scraper) | $0.0017 | Products: price, regular price, savings, rating, brand, model, stock |
 | [Google Shopping Scraper](https://apify.com/sweet_stickball/google-shopping-scraper) | $0.0024 | Shopping results: prices, sellers, ratings — 12 countries |
+| [OfferUp Scraper](https://apify.com/sweet_stickball/offerup-scraper) | $0.0014 | Marketplace listings: price, condition, location, seller, photos — US |
 | [Shopify Scraper](https://apify.com/sweet_stickball/shopify-store-scraper) | $0.0007 | Store products: prices, variants, stock, images, tags |
+| [Vinted Scraper](https://apify.com/sweet_stickball/vinted-scraper) | $0.0007 | Listings: price with fees, brand, size, condition — 23 countries |
 | [Walmart Scraper](https://apify.com/sweet_stickball/walmart-scraper) | $0.0031 | Product search/pages: price, rating, seller, availability |
+| [Wayfair Scraper](https://apify.com/sweet_stickball/wayfair-scraper) | $0.0010 | Furniture & home products: price, discount, rating, brand, delivery |
 
 ### Travel
 
@@ -39,6 +43,12 @@ Get your API token at [console.apify.com/account#/integrations](https://console.
 | [Airbnb Scraper](https://apify.com/sweet_stickball/airbnb-scraper) | $0.0028 | Search results: listing, price, rating, reviews, room type |
 | [Booking.com Scraper](https://apify.com/sweet_stickball/booking-scraper) | $0.0035 | Hotel search: name, price, rating, stars, district, coordinates |
 | [Google Flights Scraper](https://apify.com/sweet_stickball/google-flights-scraper) | $0.00017 | Flight fares: price, airline, times, duration, stops |
+
+### Food & Local
+
+| Actor | Price/result | Description |
+|-------|-------------|-------------|
+| [Grubhub Scraper](https://apify.com/sweet_stickball/grubhub-scraper) | $0.0035 | Restaurants: rating, delivery fee and time, address, optional full menu — US |
 
 ### Real Estate
 
@@ -88,9 +98,9 @@ Get your API token at [console.apify.com/account#/integrations](https://console.
 
 ## MCP Integration
 
-All CrawlKit Actors are available through the **Apify MCP server**, making them callable by AI agents (Claude, Cursor, etc.) with zero code.
+The public CrawlKit Actors are available as MCP tools through Apify's hosted MCP server, restricted to CrawlKit with the `actors` parameter, so AI agents (Claude, Cursor, etc.) see only these tools. Sign in with Apify OAuth or send your Apify API token.
 
-Endpoint: `https://mcp.apify.com`
+Endpoint: the `url` in [server.json](server.json) (`https://mcp.apify.com/?actors=sweet_stickball/booking-scraper,...`). Also listed on the [official MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers?search=crawlkit) as `io.github.CrawlKit560/crawlkit-scrapers`.
 
 See [tutorials/mcp_integration.md](tutorials/mcp_integration.md) for setup instructions.
 
